@@ -19,7 +19,7 @@ int main(){
     scanf("%s", &name);
 
     printf("%d\n",age);
-    printf("%f\n",gpa);
+    printf("%.2f\n",gpa);
     printf("%c\n",grade);
     printf("%s\n",name);
 
