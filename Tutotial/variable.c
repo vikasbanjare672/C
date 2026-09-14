@@ -2,7 +2,7 @@
 
 int main(){
 
-    int age = 18;
+    
     int year = 182828;
     float gpa = 3.6;
     float price = 599.99;
@@ -11,7 +11,7 @@ int main(){
     char me[] = {"AHAHAH HAHAHHA"};
     bool Bitch = true ;
 
-    printf("Your are %d year old \n", age);
+   
     printf("Your are in %d \n", year);
     printf("Your gpa is %f \n", gpa);
     printf("Your price is %f  \n", price);
