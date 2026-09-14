@@ -15,7 +15,7 @@ int main(){
     scanf("%lf", &radius);
 
     area = 4 * PI * pow(radius ,2);
-    volume = (4/3) * PI * pow(radius, 3);
+    volume = (4/3.0) * PI * pow(radius, 3);
 
     printf("Area of the Sphere is : %.2lf cm^2\n", area );
     printf("Volume of the Sphere is : %.2lf cm^3\n", volume );
