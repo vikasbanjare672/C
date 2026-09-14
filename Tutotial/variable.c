@@ -19,5 +19,6 @@ int main(){
     printf("Your grade is %c \n", grade);
     printf("Your are %s \n", me);
     printf("Your are %d \n", Bitch);
+    
     return 0;
 }
