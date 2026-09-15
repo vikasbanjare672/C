@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(){
 
@@ -30,6 +29,10 @@ int main(){
         pound /= 2.20462;
         
         printf("Your converted Pound -> Kg value is : %.2f\n", pound);
+    }
+    
+    else{
+        printf("Invalid input !!!");
     }
 
     return 0;
