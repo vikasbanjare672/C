@@ -19,7 +19,7 @@ int main(){
         printf("Enter F value : ");
         scanf("%f", &F);
 
-        C = ((32*F) - 32) * (5/9.0);
+        C = (F - 32) * (5/9.0);
         
         printf("Your F in C is : %.2f", C);
     }
