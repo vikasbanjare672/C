@@ -16,21 +16,20 @@ int main(){
     choice = toupper(choice);
 
     if(choice == 'F'){
-        printf("Enter F value : ");
-        scanf("%f", &F);
-
-        C = (F - 32) * (5/9.0);
+        printf("Enter C value : ");
+        scanf("%f", &C);
+        F = (C * (9/5.0) + 32);
         
         printf("Your F in C is : %.2f", C);
     }
 
     else if(choice == 'C'){
-        printf("Enter C value : ");
-        scanf("%f", &C);
+        printf("Enter F value : ");
+        scanf("%f", &F);
 
-        F = (C * (9/5.0) + 32);
+        C = (F - 32) * (5/9.0);
         
-        printf("Your C in F is : %.2f", F);
+        printf("Your C in F is : %.2f", C);
     }    
     
     else{
