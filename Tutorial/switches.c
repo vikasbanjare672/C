@@ -31,6 +31,8 @@ int main(){
         case 7:
             printf("IT IS sunday");
             break;
+        default:
+        printf("JUST ENTER THE VALID INPUT U FUCKING SLUMBAG !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
     return 0;
 }
