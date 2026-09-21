@@ -14,19 +14,19 @@ int main(){
             printf("IT IS Monday");
             break;
         case 2:
-            printf("IT IS tue");
+            printf("IT IS tuesday");
             break;
         case 3:
-            printf("IT IS wed");
+            printf("IT IS wednesday");
             break;
         case 4:
-            printf("IT IS thu");
+            printf("IT IS thusday");
             break;
         case 5:
-            printf("IT IS fri");
+            printf("IT IS friday");
             break;
         case 6:
-            printf("IT IS sat");
+            printf("IT IS saturday");
             break;
         case 7:
             printf("IT IS sunday");
