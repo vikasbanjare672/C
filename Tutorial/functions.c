@@ -41,8 +41,5 @@ int main(){
     input_data(name , sizeof(name) , &age);
     intro_vid( name , age );
 
-    input_data(name , sizeof(name) , &age);
-    intro_vid( name , age );
-
     return 0;
 }
