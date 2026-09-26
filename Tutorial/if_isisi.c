@@ -1,35 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int day = 0;
+    int a ;
+    int b = 1 ; 
+    int result = 0;
+    printf("Enter a desired number that you want to create a table of :");
+    scanf("%d", &a);
     
-    printf("Enter the number of day (1 - 7) : ");
-    scanf("%d", &day);
-
-    switch(day){
-        case 1 :
-            printf("IT IS MONDAY");
-            break;
-        case 2 :
-            printf("IT IS tue");
-            break;
-        case 3 :
-            printf("IT IS weds");
-            break;
-        case 4 :
-            printf("IT IS thru");
-            break;
-        case 5 :
-            printf("IT IS fri");
-            break;
-       case 6 :
-            printf("IT IS sat");
-            break;
-        case 7 :
-            printf("IT IS sunday");
-            break;
-        default:
-            printf("ENTER THE CORRECT NUMBER PLSSSSSSSSSSSSSSSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    while(b <= 10){
+        result = a * b ;
+        printf("%d\n", result);
+        b++ ;
     }
     return 0;
 }
+
